@@ -1,9 +1,10 @@
 {
-  "homepage": "https://TIARA-LAB.github.io/FOUR",
+  "homepage": "https://TIARA-LAB.github.io/myreact/",
   "name": "myreact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
   "scripts": {
     "dev": "vite",
     "start": "vite",
@@ -11,7 +12,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predepoly": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.1.0",
