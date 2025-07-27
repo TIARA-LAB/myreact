@@ -8,7 +8,7 @@ import Order from './order.jsx'
 import Captivating from './captivating.jsx'
 import Note from './note.jsx'
 import FooterLinks1 from './footer.jsx'
-import Footer from './footer2.jsx'
+import Footer from './footer2.jsx'''
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
