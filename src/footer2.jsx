@@ -6,8 +6,7 @@ import spotify from './assets/spotify.png';
 import twitter from './assets/twitter.png';
 import youtube from './assets/youtube.png';
 import instagram from './assets/instagram.png';
-
-
+//myreact\src\assets\pinterest.png
 
 function Footer() {
   return (

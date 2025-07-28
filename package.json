@@ -1,6 +1,7 @@
 {
   "name": "myreact",
   "private": true,
+  "homepage": "https://TIARA-LAB.github.io/myreact",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +10,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predepoly": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
