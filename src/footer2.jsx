@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer2.jsx';
+import Instagram from './assets/instagram.png';
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
         <a href="#"><img src="/images/facebook.svg" alt="sportify" /></a>
         <a href="#"><img src="/images/facebook.svg" alt="Facebook" /></a>
         <a href="#"><img src="/images/twitter.svg" alt="Twitter" /></a>
-        <a href="#"><img src="/images/instagram.svg" alt="Instagram" /></a>
+        <a href="#"><img src={Instagram} alt="Instagram" /></a>
         <a href="#"><img src="/images/youtube.svg" alt="YouTube" /></a>
         <a href="#"><img src="/images/pinterest.svg" alt="Pinterest" /></a>
       </div>
